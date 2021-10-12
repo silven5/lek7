@@ -1,0 +1,21 @@
+.header__logo {
+    text-align: center;
+    z-index: 15;
+}
+
+.font-fam {
+    font-family: Lobster, cursive;
+}
+
+.header__logo_font {
+    font-family: 'Yatra One', serif;
+    font-size: 1.8vmax;
+}
+
+.header__h2 {
+    font-size: 1.6vmax;
+}
+
+.header__h4 {
+    font-size: 1.4vmax;
+}

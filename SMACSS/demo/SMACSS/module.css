@@ -1,0 +1,77 @@
+.header__logo {
+    text-align: center;
+    background-color: transparent;
+    z-index: 15;
+}
+
+.article__h1 {
+    grid-column: span 2;
+    font-size: 1.3vmax;
+}
+
+.article__div {
+    margin: 50px 0px;
+    width: 250px;
+    height: 250px;
+    filter: grayscale(0.9);
+    cursor: pointer;
+    z-index: 10;
+}
+
+.article__figure {
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+.article__div_top {
+    background: url('../Image/kosmos.jpeg')no-repeat;
+    background-size: contain;
+    position: relative;
+    justify-self: center;
+}
+
+.article__div_left {
+    background: url('../Image/goal.jpg')no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-self: center;
+}
+
+.article__div_right {
+    background: url('../Image/plans.jpg')no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-self: center;
+}
+
+.article__div_bottom {
+    background: url('../Image/end_plans.jpg')no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-self: center;
+}
+
+.article__text {
+    position: absolute;
+    padding: 20px 0;
+    top: 90px;
+    width: 250px;
+    opacity: 0;
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+}
+
+.contacts {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 15px 30px;
+    color: #766AD0;
+    border: 1px solid #3A374C;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: .3s linear;
+    margin-right: 5%;
+    font-size: 1.4vmax;
+}

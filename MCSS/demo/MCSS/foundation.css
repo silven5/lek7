@@ -1,0 +1,43 @@
+/* Визначимо основні властивості з використанням CSS кастомних властивостей*/
+
+:root {
+    /*Визначимо фіксовану висоту заголовку*/
+    --height-header: 70px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Lobster, cursive;
+}
+
+a,
+a:visited {
+    color: rgb(153, 175, 240);
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    z-index: 15;
+}
+
+a:hover {
+    color: rgba(194, 248, 248, 0.897);
+}
+
+h1 {
+    font-family: Lobster, cursive;
+    font-size: 1.6vmax;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-family: Lobster, cursive;
+    font-size: 1.6vmax;
+}
+
+h4 {
+    font-family: Lobster, cursive;
+    font-size: 1.4vmax;
+}

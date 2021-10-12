@@ -1,0 +1,11 @@
+.content {
+    text-align: center;
+    margin: auto;
+}
+
+.content__h1 {
+    font-family: Lobster, cursive;
+    font-size: 1.6vmax;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

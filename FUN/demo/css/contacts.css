@@ -1,0 +1,59 @@
+.contacts {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 15px 30px;
+    color: #766AD0;
+    border: 1px solid #3A374C;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: .3s linear;
+    margin-right: 5%;
+    font-size: 1.4vmax;
+}
+
+.contacts:before,
+.contacts:after,
+.contacts__link-content:before,
+.contacts__link-content:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 15px;
+    height: 15px;
+    transition: .3s linear;
+}
+
+.contacts:before {
+    left: -1px;
+    top: -1px;
+    border-left: 1px solid #614DFF;
+    border-top: 1px solid #614DFF;
+}
+
+.contacts:after {
+    bottom: -1px;
+    right: -1px;
+    border-bottom: 1px solid #614DFF;
+    border-right: 1px solid #614DFF;
+}
+
+.contacts__link-content:after {
+    right: -1px;
+    top: -1px;
+    border-right: 1px solid #614DFF;
+    border-top: 1px solid #614DFF;
+}
+
+.contacts__link-content:before {
+    left: -1px;
+    bottom: -1px;
+    border-bottom: 1px solid #614DFF;
+    border-left: 1px solid #614DFF;
+}
+
+.contacts:hover {
+    color: #614DFF;
+    border-color: #614DFF;
+}

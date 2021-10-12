@@ -1,0 +1,10 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-gap: 0.5rem;
+    grid-auto-flow: row dense;
+    align-self: center;
+    align-items: center;
+    font-size: 1.4vmax;
+    z-index: 10;
+}

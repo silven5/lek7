@@ -1,0 +1,57 @@
+.is-header__logo {
+    font-family: 'Yatra One', serif;
+    font-size: 1.8vmax;
+}
+
+.article__div:hover {
+    filter: none;
+}
+
+.article__div:hover .article__text {
+    opacity: 1;
+}
+
+.contacts:before,
+.contacts:after,
+.contacts__link-content:before,
+.contacts__link-content:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 15px;
+    height: 15px;
+    transition: .3s linear;
+}
+
+.contacts:before {
+    left: -1px;
+    top: -1px;
+    border-left: 1px solid #614DFF;
+    border-top: 1px solid #614DFF;
+}
+
+.contacts:after {
+    bottom: -1px;
+    right: -1px;
+    border-bottom: 1px solid #614DFF;
+    border-right: 1px solid #614DFF;
+}
+
+.contacts__link-content:after {
+    right: -1px;
+    top: -1px;
+    border-right: 1px solid #614DFF;
+    border-top: 1px solid #614DFF;
+}
+
+.contacts__link-content:before {
+    left: -1px;
+    bottom: -1px;
+    border-bottom: 1px solid #614DFF;
+    border-left: 1px solid #614DFF;
+}
+
+.contacts:hover {
+    color: #614DFF;
+    border-color: #614DFF;
+}

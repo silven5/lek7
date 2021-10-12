@@ -1,0 +1,11 @@
+/* Визначимо основні властивості з використанням CSS кастомних властивостей*/
+
+:root {
+    /*Визначимо фіксовану висоту заголовку*/
+    --height-header: 70px;
+}
+
+.content-color {
+    color: white;
+    font-family: Lobster, cursive;
+}

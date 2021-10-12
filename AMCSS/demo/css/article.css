@@ -1,0 +1,87 @@
+.article {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(130px, 1fr));
+    grid-template-rows: repeat(2, minmax(250px, 0.5fr));
+    gap: 50px 50px;
+    align-items: start;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.article__h1 {
+    grid-column: span 2;
+    font-size: 1.3vmax;
+}
+
+.article__div {
+    margin: 50px 0px;
+    width: 250px;
+    height: 250px;
+    filter: grayscale(0.9);
+    cursor: pointer;
+    z-index: 10;
+}
+
+.article__div:hover {
+    filter: none;
+}
+
+.article__div:hover .article__text {
+    opacity: 1;
+}
+
+.article__text {
+    position: absolute;
+    background: rgba(200, 0, 0, 0.5);
+    padding: 20px 0;
+    top: 90px;
+    width: 250px;
+    opacity: 0;
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+}
+
+.article__div_left .article__text {
+    background: rgba(0, 0, 200, .5);
+}
+
+.article__div_right .article__text {
+    background: rgba(200, 100, 0, 0.5);
+}
+
+.article__div_bottom .article__text {
+    background: rgba(0, 200, 0, 0.5);
+}
+
+.article__figure {
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+.article__div_top {
+    background: url('../Image/kosmos.jpeg')no-repeat;
+    background-size: contain;
+    position: relative;
+    justify-self: center;
+}
+
+.article__div_left {
+    background: url('../Image/goal.jpg')no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-self: center;
+}
+
+.article__div_right {
+    background: url('../Image/plans.jpg')no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-self: center;
+}
+
+.article__div_bottom {
+    background: url('../Image/end_plans.jpg')no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-self: center;
+}
